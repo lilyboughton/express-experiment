@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import * as apiJson from './openapi';
+import * as apiJson from './apiSpec/openapi';
 
 
 export const getTest = (req: Request, res: Response) => {
